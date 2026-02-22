@@ -65,6 +65,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
+<<<<<<< HEAD
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
@@ -74,6 +75,17 @@ export const SkillsInfo = [
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
+=======
+      // { name: 'SASS', logo: sassLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'React JS', logo: reactjsLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
@@ -82,11 +94,19 @@ export const SkillsInfo = [
     skills: [
       { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
+<<<<<<< HEAD
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
+=======
+      // { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+      // { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'PostgreSQL', logo: postgreLogo },
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
     ],
   },
   {
@@ -95,7 +115,11 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
+<<<<<<< HEAD
       { name: 'Python', logo: pythonLogo },
+=======
+      // { name: 'Python', logo: pythonLogo },
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
       { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
@@ -180,18 +204,30 @@ export const education = [
   {
     id: 1,
     img: mgvdLogo,
+<<<<<<< HEAD
     school: "Mahatma Gandhi Vidyalaya and Junior College Dhasai",
     date: "July 2021 - March 2022",
     grade: "65.0%",
+=======
+    school: "Karmaveer bhaurav patil college",
+    date: "July 2021 - March 2022",
+    grade: "55.0%",
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
     desc: "Completed class 12 under SSC board, studying Physics, Chemistry, Mathematics and Biology (PCMB).",
     degree: "HSC (XII) - PCMB",
   },
   {
     id: 2,
     img: mgvdLogo,
+<<<<<<< HEAD
     school: "Saralgaon Vibhag High School",
     date: "July 2019 - April 2020",
     grade: "78.0%",
+=======
+    school: "Dnyan vikas school",
+    date: "July 2019 - April 2020",
+    grade: "80.0%",
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
     desc: "Completed class 10 under SSC board.",
     degree: "SSC (X)",
   },
@@ -203,7 +239,11 @@ export const education = [
 export const projects = [
   {
     id: 0,
+<<<<<<< HEAD
     title: "Real-Time Stock Tracker",
+=======
+    title: "Farmer management system",
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
     description:
       "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
     image: stockLogo,

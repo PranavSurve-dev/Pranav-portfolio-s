@@ -18,7 +18,11 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+<<<<<<< HEAD
             Saish Shaikh
+=======
+            Pranav Surve
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -68,7 +72,11 @@ const About = () => {
           >
             <img
               src={profileImage}
+<<<<<<< HEAD
               alt="Saish Shaikh"
+=======
+              alt="Pranav Surve"
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
               className="w-full h-full object-cover"
             />
           </Tilt>

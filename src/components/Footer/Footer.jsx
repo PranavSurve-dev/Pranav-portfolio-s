@@ -14,7 +14,11 @@ const Footer = () => {
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
+<<<<<<< HEAD
         <h2 className="text-xl font-semibold text-purple-500">Saish Shaikh</h2>
+=======
+        <h2 className="text-xl font-semibold text-purple-500">PRANAV SURVE</h2>
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
@@ -57,7 +61,11 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm text-gray-400 mt-6">
+<<<<<<< HEAD
           © 2025 Saish Shaikh. All rights reserved.
+=======
+          © 2025 Pranav Surve. All rights reserved.
+>>>>>>> 42bb1e3756060a5d2eb1588327939fe83a69ce1a
         </p>
       </div>
     </footer>
