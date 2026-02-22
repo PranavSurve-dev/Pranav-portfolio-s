@@ -1,5 +1,5 @@
-import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+// import React from "react";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const handleScroll = (sectionId) => {
@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw] bg-black">
+    <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name */}
         <h2 className="text-xl font-semibold text-purple-500">PRANAV SURVE</h2>
@@ -20,9 +20,9 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
+            { name: "Experience", id: "experience" },
             { name: "Projects", id: "projects" },
             { name: "Education", id: "education" },
-            { name: "Contact", id: "contact" },
           ].map((item, index) => (
             <button
               key={index}
@@ -34,34 +34,27 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Social Links */}
-        <div className="flex justify-center space-x-6 mt-6 text-xl">
-          <a
-            href="https://github.com/PranavSurve-dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-purple-500 transition-transform hover:scale-110"
-          >
-            <FaGithub />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/pranav-surve-898b13275/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-purple-500 transition-transform hover:scale-110"
-          >
-            <FaLinkedin />
-          </a>
-
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-purple-500 transition-transform hover:scale-110"
-          >
-            <FaInstagram />
-          </a>
+        {/* Social Media Icons */}
+        <div className="flex flex-wrap justify-center space-x-4 mt-6">
+          {[
+            { icon: <FaFacebook />, link: "https://www.facebook.com/" },
+            { icon: <FaTwitter />, link: "https://x.com/" },
+            {
+              icon: <FaLinkedin />,
+              link: "https://www.linkedin.com/in/pranav-surve-898b13275/",
+            },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/" },
+          ].map((item, index) => (
+            <a
+              key={index}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
+            >
+              {item.icon}
+            </a>
+          ))}
         </div>
 
         {/* Copyright */}
