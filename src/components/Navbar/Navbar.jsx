@@ -104,7 +104,6 @@ const Navbar = () => {
             />
           )}
         </div>
-        
       </div>
 
       {/* Mobile Menu Items */}
