@@ -1,6 +1,47 @@
 // ============================
 // Skills Section Logos
 // ============================
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import sassLogo from "./assets/tech_logo/sass.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import angularLogo from "./assets/tech_logo/angular.png";
+import reduxLogo from "./assets/tech_logo/redux.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import gsapLogo from "./assets/tech_logo/gsap.png";
+import materialuiLogo from "./assets/tech_logo/materialui.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import springbootLogo from "./assets/tech_logo/springboot.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mysqlLogo from "./assets/tech_logo/mysql.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import firebaseLogo from "./assets/tech_logo/firebase.png";
+import cLogo from "./assets/tech_logo/c.png";
+import cppLogo from "./assets/tech_logo/cpp.png";
+import javaLogo from "./assets/tech_logo/java.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import typescriptLogo from "./assets/tech_logo/typescript.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import mcLogo from "./assets/tech_logo/mc.png";
+import figmaLogo from "./assets/tech_logo/figma.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
+import csharpLogo from "./assets/tech_logo/csharp.png";
+import matplotlibLogo from "./assets/tech_logo/Matplotlib.png";
+import numpyLogo from "./assets/tech_logo/Numpy.png";
+import pandasLogo from "./assets/tech_logo/Pandas.png";
+=======
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
@@ -37,30 +78,98 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 import matplotlibLogo from './assets/tech_logo/Matplotlib.png';
 import numpyLogo from './assets/tech_logo/Numpy.png';
 import pandasLogo from './assets/tech_logo/Pandas.png';
+<<<<<<< HEAD
+=======
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
 
 // ============================
 // Experience Section Logos
 // ============================
+<<<<<<< HEAD
 import cloudCounselageLogo from './assets/company_logo/cloudcounselage_logo.png';
+=======
+<<<<<<< HEAD
+import cloudCounselageLogo from "./assets/company_logo/cloudcounselage_logo.png";
+=======
+import cloudCounselageLogo from './assets/company_logo/cloudcounselage_logo.png';
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
 
 // ============================
 // Education Section Logos
 // ============================
+<<<<<<< HEAD
 import mgvdLogo from './assets/education_logo/Mgvd.png';
 import mhsscelogo from './assets/education_logo/Mhssce.png';
+=======
+<<<<<<< HEAD
+import mgvdLogo from "./assets/education_logo/Mgvd.png";
+import mhsscelogo from "./assets/education_logo/Mhssce.png";
+=======
+import mgvdLogo from './assets/education_logo/Mgvd.png';
+import mhsscelogo from './assets/education_logo/Mhssce.png';
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
 
 // ============================
 // Projects Section Logos
 // ============================
+<<<<<<< HEAD
 import stockLogo from './assets/work_logo/Stock_predictor.png';
 import skyportLogo from './assets/work_logo/Skyport.png';
 import linkedLogo from './assets/work_logo/Linked.png';
+=======
+<<<<<<< HEAD
+import stockLogo from "./assets/work_logo/Stock_predictor.png";
+import skyportLogo from "./assets/work_logo/Skyport.png";
+import linkedLogo from "./assets/work_logo/Linked.png";
+=======
+import stockLogo from './assets/work_logo/Stock_predictor.png';
+import skyportLogo from './assets/work_logo/Skyport.png';
+import linkedLogo from './assets/work_logo/Linked.png';
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
 
 // ============================
 // Skills Info
 // ============================
 export const SkillsInfo = [
   {
+<<<<<<< HEAD
+    title: 'Frontend',
+=======
+<<<<<<< HEAD
+    title: "Frontend",
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
+    skills: [
+      { name: 'HTML', logo: htmlLogo },
+      { name: 'CSS', logo: cssLogo },
+      // { name: 'SASS', logo: sassLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'React JS', logo: reactjsLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
+      { name: 'Bootstrap', logo: bootstrapLogo },
+    ],
+  },
+  {
+    title: 'Backend',
+    skills: [
+      { name: 'Springboot', logo: springbootLogo },
+      { name: 'Node JS', logo: nodejsLogo },
+      // { name: 'Express JS', logo: expressjsLogo },
+<<<<<<< HEAD
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+=======
+      { name: "MySQL", logo: mysqlLogo },
+      { name: "MongoDB", logo: mongodbLogo },
+=======
     title: 'Frontend',
     skills: [
       { name: 'HTML', logo: htmlLogo },
@@ -85,11 +194,46 @@ export const SkillsInfo = [
       // { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
       // { name: 'Firebase', logo: firebaseLogo },
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
+<<<<<<< HEAD
+    title: 'Languages',
+=======
+<<<<<<< HEAD
+    title: "Languages",
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
+    skills: [
+      { name: 'C', logo: cLogo },
+      { name: 'C++', logo: cppLogo },
+      { name: 'Java', logo: javaLogo },
+      // { name: 'Python', logo: pythonLogo },
+      { name: 'C-Sharp', logo: csharpLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Matplotlib', logo: matplotlibLogo },
+      { name: 'Numpy', logo: numpyLogo },
+      { name: 'Pandas', logo: pandasLogo },
+    ],
+  },
+  {
+    title: 'Tools',
+    skills: [
+<<<<<<< HEAD
+=======
+      { name: "Git", logo: gitLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Compass", logo: mcLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Netlify", logo: netlifyLogo },
+      { name: "Figma", logo: figmaLogo },
+=======
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
@@ -107,6 +251,7 @@ export const SkillsInfo = [
   {
     title: 'Tools',
     skills: [
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
@@ -115,6 +260,10 @@ export const SkillsInfo = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
+<<<<<<< HEAD
+=======
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
     ],
   },
 ];
@@ -205,7 +354,15 @@ export const projects = [
     id: 0,
     title: "Farmer management system",
     description:
+<<<<<<< HEAD
       "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
+=======
+<<<<<<< HEAD
+      "A Farmer Management System (FMS) is a digital platform that helps farmers streamline and optimize farm operations by centralizing data, automating tasks, and providing insights for better decision-making, covering everything from planting and resource use (fertilizer, water) to finances and sales, improving efficiency, yield, and profitability through data-driven practices. ",
+=======
+      "A Python-based web app that fetches and displays live stock prices with auto-refresh, built using Python, HTML, and CSS for real-time market insights.",
+>>>>>>> 98a8b0a (add links)
+>>>>>>> 24638ca (Resolve all conflicts and finalize rebase)
     image: stockLogo,
     tags: ["HTML", "CSS", "MongoDB", "Python", "Flask"],
     github: "https://github.com/saishshaikh/Real-Time-Stock-Tracker.git",
